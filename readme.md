@@ -11,8 +11,8 @@ gpio -g write 18 1
 
 ## Installing Node.js
 
-I used NVM to install the latest version of Node. More information [here](https://github.com/creationix/nvm).
+If you use the package manager like apt-get you might get an older version of Node. Node 4 is the current LTS release and supports lots of nice ES6 features.
 
 ## rpi  gpio
 
-The examples I showed use the module [rpi-gpio](https://www.npmjs.com/package/rpi-gpio).
+The examples I showed use the module [rpi-gpio](https://www.npmjs.com/package/rpi-gpio) but there are many more to choose from.
