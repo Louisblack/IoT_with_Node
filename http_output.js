@@ -1,4 +1,4 @@
-var light = require('./light')
+var light = require('./light'),
     express = require('express'),
     app = express();
 
