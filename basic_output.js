@@ -1,15 +1,25 @@
 var gpio = require('rpi-gpio'),
-    pin = 17,
-    delay = 1000;
+    pin = 18,
+    delay = 100;
+
+gpio.setMode(gpio.MODE_BCM);
 
 gpio.setup(pin, gpio.DIR_OUT, turnOn);
 
-function turnOn() {
-    gpio.write(pin, 1, turnOff);
+function turnOn(err) {
+    if (err) {
+        console.log(err);
+    }
+    setTimeout(function() {
+        gpio.write(pin, true, turnOff);
+    }, delay);
 };
 
-function turnOff() {
+function turnOff(err) {
+    if (err) {
+        console.log(err);
+    }
     setTimeout(function() {
-        gpio.write(pin, 0, turnOn);
+        gpio.write(pin, false, turnOn);
     }, delay);
 };
