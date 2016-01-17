@@ -3,7 +3,7 @@ var gpio = require('rpi-gpio'),
 
 gpio.setMode(gpio.MODE_BCM);
 
-gpio.setup(pin, gpio.DIR_OUT, function() {
+gpio.setup(pin, gpio.DIR_OUT, function(err) {
     if (err) {
         throw new Error(err);
     }
