@@ -1,6 +1,6 @@
 var gpio = require('rpi-gpio'),
     pin = 17,
-    deplay = 1000;
+    delay = 1000;
 
 gpio.setup(pin, gpio.DIR_OUT, turnOn);
 
