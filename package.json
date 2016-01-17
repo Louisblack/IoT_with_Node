@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Louisblack/IoT_with_Node",
   "dependencies": {
+    "express": "^4.13.3",
     "rpi-gpio": "^0.7.0"
   }
 }
