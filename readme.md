@@ -22,9 +22,9 @@ The examples I showed use the module [rpi-gpio](https://www.npmjs.com/package/rp
 
 Be aware that we now have a few different versions of the Raspberry Pi. Pin configuration may be different across different models. 
 
-To connect the LED to the GPIO pins I'm using a breadboard, jumper cables and a resister which are all available on eBay for very little money. The IR motion sensor was also bought from eBay - just search Raspberry Pi PIR sensor.
+To connect the LED to the GPIO pins I'm using a breadboard, jumper cables and a resistor which are all available on eBay for very little money. The IR motion sensor was also bought from eBay - just search Raspberry Pi PIR sensor.
 
-You can buy Raspberry Pi starter kits which bundle together a few different components but these can be a little expensive compared to buying the bits seperately. Although you do end up with bags of hundreds of LEDs and resisters...
+You can buy Raspberry Pi starter kits which bundle together a few different components but these can be a little expensive compared to buying the bits seperately. Although you do end up with bags of hundreds of LEDs and resistors...
 
 ## Further reading
 
