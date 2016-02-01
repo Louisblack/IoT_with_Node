@@ -1,6 +1,8 @@
 
 # Building the Internet of Things with Node.js
 
+I did this talk at the second [MK.js meetup](http://www.meetup.com/mkjscript/events/227136095/). This readme has links to some of the things I talked about and some other helpful links.
+
 ## Wiring Pi
 
 I mentioned a command line utility that you can use to test the GPIO pins. More information can be found [here](https://projects.drogon.net/raspberry-pi/wiringpi/the-gpio-utility/)
